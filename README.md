@@ -2,6 +2,9 @@
 
 This project provides a real-time truck route visualization using a **Spring Boot** backend and a **React + Mapbox** frontend. The backend consumes location updates from Kafka and exposes APIs to fetch pre-planned routes and stream live location updates. The frontend animates the truck's movement on a map.
 
+[![Watch the video](https://github.com/rishyank/Truck-Route/blob/main/truc_info.JPG)](https://github.com/rishyank/Truck-Route/blob/main/truck_route.mp4)
+
+
 ---
 
 ## 🔧 Backend - Spring Boot + Kafka
@@ -30,8 +33,7 @@ Returns the planned route (as a list of coordinates) for a truck.
 {
   "route": [
     { "lat": 12.9716, "lon": 77.5946 },
-    { "lat": 13.0350, "lon": 77.5970 },
-    ...
+    { "lat": 13.0350, "lon": 77.5970 }
   ]
 }
 ```
